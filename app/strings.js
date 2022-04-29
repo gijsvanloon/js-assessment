@@ -1,3 +1,5 @@
+const { indexOf } = require("mocha/lib/utils");
+
 exports = typeof window === "undefined" ? global : window;
 
 exports.stringsAnswers = {

@@ -12,13 +12,13 @@ exports.objectsAnswers = {
   /**
    * Return the cat name
    */
-  name: () => {},
+  name: () => {return cat.name},
 
   /**
    * Return the changed cat name
    * @param {String} name
    */
-  changeName: (name) => {},
+  changeName: (name) => {return cat.name},
 
   /**
    * Add a key/value to the object
