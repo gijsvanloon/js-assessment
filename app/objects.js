@@ -24,6 +24,6 @@ exports.objectsAnswers = {
    * Add a key/value to the object
    * @param {String} key
    * @param {String} value
-   */
-  add: (key, value) => {},
-};
+   */  
+  add: (key, value) => {return cat.gender = 'male'},
+}
